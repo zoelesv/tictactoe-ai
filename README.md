@@ -2,7 +2,7 @@
 | ![Image 1](/src/play.png) | ![Image 2](/src/ai.png) |
 |:---------------------:|:---------------------:|
 ## About
-This app implements an AI to play Tic-Tac-Toe optimally with an user.
+This app implements an AI using Minimax algorithm to play Tic-Tac-Toe optimally with an user.
 
 ## Files
 - tictactoe.py - all of the logic for playing the game, and for making optimal moves
@@ -10,6 +10,8 @@ This app implements an AI to play Tic-Tac-Toe optimally with an user.
 
 ## Instruction
 ```pip install -r requirements.txt```
+
+
 ```python runner.py```
 
 ## Specifications:
@@ -22,7 +24,7 @@ This app implements an AI to play Tic-Tac-Toe optimally with an user.
 - Minimax function: using minimax algorith to search for the best optimal moves
     ![Image 4](/src/state.png)
     - Minimax represents winning conditions as (-1) for one side and (+1) for the other side
-    ![Image 3](/src/minimax.png)
+    ![Image 3](/src/minmax.png)
     - Given a state s, the function considers all the possible values of Future States
         - MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULT(s, a))
         - MIN picks action a in ACTIONS(s) that produces smallest value of MAX-VALUE(RESULT(s, a))
