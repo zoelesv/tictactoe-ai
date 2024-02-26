@@ -2,13 +2,13 @@
 | ![Image 1](/src/play.png) | ![Image 2](/src/ai.png) |
 |:---------------------:|:---------------------:|
 ## About
-This app implements an AI using Minimax algorithm to play Tic-Tac-Toe optimally with an user.
+This pygame app implements an AI using Minimax algorithm to play Tic-Tac-Toe optimally with an user.
 
 ## Files
 - tictactoe.py - all of the logic for playing the game, and for making optimal moves
 - runner.py - pygame graphical interface
 
-## Instruction
+## Instructions
 ```pip install -r requirements.txt```
 
 
